@@ -37,9 +37,9 @@ int main() {
     return 1;
   }
 
-	for (double i = start; i<= end; i += step) {
-		double y = sin(i);
-		cout << i << " : " << y << endl;
+	for (double x = start; x<= end; x += step) {
+		double y = sin(x);
+		cout << x << " | " << y << endl;
 	}
 	
 
